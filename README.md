@@ -15,7 +15,7 @@ This is my personal developer portfolio built with **React + Vite**. It showcase
 - **Routing:** React Router  
 - **Animations:** Framer Motion  
 - **Icons:** Lucide React / Heroicons  
-- **Deployment:** Vercel / Netlify / GitHub Pages (choose one)
+- **Deployment:** Vercel
 
 ---
 
