@@ -69,11 +69,7 @@ npm run dev
 
 ---
 
-## ✨ Screenshots
 
-> *(Add screenshots of your Hero section, Projects, etc.)*
-
----
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
