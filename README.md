@@ -4,8 +4,7 @@ This is my personal developer portfolio built with **React + Vite**. It showcase
 
 ## 🚀 Live Demo
 
-🔗 [View Live Site](https://your-portfolio-url.com)  
-*(Replace with your actual deployed link)*
+🔗 [View Live Site](https://portfolio-raman-76.vercel.app/)  
 
 ---
 
