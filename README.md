@@ -75,5 +75,3 @@ npm run dev
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
-Would you like help filling in specific details like your links or profile info?
