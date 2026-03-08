@@ -31,6 +31,120 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 2,
+    title: "SkillSpan",
+    description:
+      "A real-time collaborative coding interview platform with live video, chat, and in-browser code execution.",
+    subDescription: [
+      "Built a full-stack interview workflow with Clerk authentication, protected routes, and a dashboard for active and recent sessions.",
+      "Implemented a complete coding workspace with Monaco Editor, JavaScript/Python/Java language switching, stdin support, and run/reset execution controls.",
+      "Integrated Stream Video and Stream Chat for real-time collaboration between interviewer and candidate in a single live session room.",
+      "Developed Node/Express and MongoDB backend services for session lifecycle management, code execution APIs, Stream token generation, and AI-assisted problem generation.",
+    ],
+    href: "https://skillspan.onrender.com/",
+    github: "https://github.com/futuristic-coder/SkillSpan",
+    logo: "",
+    image: "/assets/projects/SkillSpan.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Node.js",
+        path: "/assets/logos/node.svg",
+      },
+      {
+        id: 3,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
+      },
+      {
+        id: 4,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Learnix AI",
+    description:
+      "An intelligent full-stack learning assistant that turns documents into interactive study experiences with AI chat, flashcards, and quizzes.",
+    subDescription: [
+      "Created secure JWT-based authentication with encrypted credentials, profile management, and protected learning workflows.",
+      "Implemented PDF upload, document parsing, text chunking, and cloud storage integration to build context-aware learning content pipelines.",
+      "Built AI-powered features using Groq API for explanations, flashcard generation, quiz generation, and adaptive learning support.",
+      "Delivered a responsive React and Tailwind frontend with progress tracking dashboards, interactive quizzes, and spaced-repetition flashcard experiences.",
+    ],
+    href: "https://learnix-ai-frontend.onrender.com/",
+    github: "https://github.com/futuristic-coder/Learnix_AI",
+    logo: "",
+    image: "/assets/projects/Learnix_AI.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Node.js",
+        path: "/assets/logos/node.svg",
+      },
+      {
+        id: 3,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "AI Virtual Voice Assistant",
+    description:
+      "A modern AI-powered voice assistant web application with voice commands, text-to-speech responses, and personalized assistant customization.",
+    subDescription: [
+      "Built hands-free voice command workflows using the Web Speech API with wake-word style interaction and continuous listening support.",
+      "Integrated Groq LLaMA models for intelligent responses and multi-purpose commands like search, media playback, time/date checks, and app navigation.",
+      "Implemented secure user authentication with JWT, password hashing, protected APIs, and command history tracking.",
+      "Developed a React + Tailwind frontend and Node/Express + MongoDB backend with Cloudinary avatar management and responsive animated UI.",
+    ],
+    href: "https://virtual-assistant-dfnk.onrender.com/",
+    github: "https://github.com/futuristic-coder/Virtual-Assistant",
+    logo: "",
+    image: "/assets/projects/Virtual_Assistant.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Node.js",
+        path: "/assets/logos/node.svg",
+      },
+      {
+        id: 3,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
+      },
+      {
+        id: 4,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+    ],
+  },
 ];
 
 
