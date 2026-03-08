@@ -1,38 +1,6 @@
 export const myProjects = [
   {
     id: 1,
-    title: "FortStay",
-    description:
-      "An intuitive platform for booking hotels and homestays, offering users a seamless experience in discovering, comparing, and reserving accommodations.",
-    subDescription: [
-      "Developed using React and Tailwind CSS to ensure a clean and responsive UI for booking stays.",
-      "Integrated Firebase for user authentication and real-time database functionality.",
-      "Implemented features like advanced filtering, location-based search, booking confirmation, and reviews.",
-      "Used Firestore to manage dynamic data such as listings, bookings, and user profiles efficiently.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/FortStay.png",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 3,
-        name: "Firebase",
-        path: "/assets/logos/firebase.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
     title: "SkillSpan",
     description:
       "A real-time collaborative coding interview platform with live video, chat, and in-browser code execution.",
@@ -70,7 +38,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     title: "Learnix AI",
     description:
       "An intelligent full-stack learning assistant that turns documents into interactive study experiences with AI chat, flashcards, and quizzes.",
@@ -108,7 +76,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: "AI Virtual Voice Assistant",
     description:
       "A modern AI-powered voice assistant web application with voice commands, text-to-speech responses, and personalized assistant customization.",

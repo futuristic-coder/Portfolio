@@ -20,7 +20,7 @@ const ProjectDetails = ({
           onClick={closeModal}
           className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
         >
-          <img src="assets/close.svg" className="w-6 h-6" />
+          <img src="/assets/close.svg" alt="Close" className="w-6 h-6" />
         </button>
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
         <div className="p-5">
@@ -51,7 +51,16 @@ const ProjectDetails = ({
                   className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
                 >
                   Live Demo
-                  <img src="assets/arrow-up.svg" className="size-4" />
+                  <svg
+                    className="w-4 h-4"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    aria-hidden="true"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7m0 0H9m8 0v8" />
+                  </svg>
                 </a>
               )}
               {github && (
@@ -62,7 +71,16 @@ const ProjectDetails = ({
                   className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
                 >
                   GitHub
-                  <img src="assets/arrow-up.svg" className="size-4" />
+                  <svg
+                    className="w-4 h-4"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    aria-hidden="true"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7m0 0H9m8 0v8" />
+                  </svg>
                 </a>
               )}
             </div>

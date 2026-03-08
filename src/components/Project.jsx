@@ -32,7 +32,16 @@ const Project = ({
           className="flex items-center gap-1 cursor-pointer hover-animation"
         >
           Read More
-          <img src="assets/arrow-right.svg" className="w-5" />
+          <svg
+            className="w-4 h-4"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            aria-hidden="true"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-7-7l7 7-7 7" />
+          </svg>
         </button>
       </div>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
